@@ -44,7 +44,13 @@ Vue.component('product', {
       
       </div>
      `,
-   
+    data() {
+      return {
+          product: 'Socks',
+          brand: 'Vue Mastery',
+          selectedVariant: 0,
+          details: ['80% cotton', '20% polyester', 'Gender-neutral'],
+          variants: [
             {
               variantId: 2234,
               variantColor: 'green',
