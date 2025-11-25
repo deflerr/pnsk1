@@ -1,0 +1,13 @@
+<div class="nav-bar"></div>
+
+<div id="app">
+    <div class="cart">
+        <p>Cart({{ cart.length }})</p>
+    </div>
+    <product :premium="premium" @add-to-cart="updateCart"></product>
+</div>
+
+   <link rel="stylesheet" href="css/main.css">
+   <script defer src="js/vue.js"></script>
+   <script defer src="js/main.js"></script>
+   
